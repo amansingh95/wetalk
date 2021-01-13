@@ -1,0 +1,20 @@
+{
+  "name": "wetalk",
+  "version": "1.0.0",
+  "description": "The Application is made for private talk or chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+  "author": "aman singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
