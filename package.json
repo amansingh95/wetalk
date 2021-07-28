@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev":"nodemon server"
+    "dev": "nodemon server",
+    "cypress:open": "cypress open"
   },
   "author": "aman singh",
   "license": "ISC",
@@ -15,6 +16,9 @@
     "socket.io": "^3.0.5"
   },
   "devDependencies": {
+    "cypress": "^8.0.0",
+    "mocha": "^9.0.3",
+    "mochawesome": "^6.2.2",
     "nodemon": "^2.0.6"
   }
 }
